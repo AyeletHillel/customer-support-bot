@@ -1,7 +1,5 @@
 import express from 'express';
 import chainPromise from './bot.js'; 
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 
 const app = express();
 const PORT = 3000;
@@ -20,7 +18,6 @@ chainPromise.then(chain => {
             res.status(500).send("Internal Server Error");
         }
     });
-
     app.listen(PORT, () => {
         console.log(`Server is running on http://localhost:${PORT}`);
     });
