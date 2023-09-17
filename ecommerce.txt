@@ -1,0 +1,44 @@
+Q: What is your return policy?
+A: Our return policy allows for returns within 30 days of purchase. Items must be in their original condition and packaging. Please note that shipping fees are non-refundable.
+
+Q: How long does shipping take?
+A: Standard shipping takes 5-7 business days, while expedited shipping is available for 2-3 business days at an additional cost.
+
+Q: Do you offer international shipping?
+A: Yes, we do offer international shipping. Rates and delivery times vary by country.
+
+Q: What payment methods do you accept?
+A: We accept all major credit cards, PayPal, and Apple Pay.
+
+Q: Is my personal information secure?
+A: Absolutely. We use SSL encryption to ensure that all your personal and payment information is secure.
+
+Q: How can I track my order?
+A: Once your order has been shipped, you will receive an email with a tracking number and a link to track your package.
+
+Q: Do you offer gift wrapping?
+A: Yes, we offer gift wrapping for an additional fee of $5. You can select this option at checkout.
+
+Q: Are there any ongoing promotions or discounts?
+A: We frequently run promotions and offer discounts. Be sure to sign up for our newsletter to stay updated on our latest offers.
+
+Q: How do I apply a coupon code?
+A: You can apply a coupon code at checkout. Simply enter the code in the designated field and click "Apply."
+
+Q: What if an item is out of stock?
+A: If an item is out of stock, you can choose to be notified when it becomes available again. Simply click on the "Notify Me" button on the product page.
+
+Q: Do you offer a warranty on your products?
+A: Yes, all our products come with a one-year warranty that covers manufacturing defects.
+
+Q: How do I contact customer support?
+A: You can reach our customer support team via email at support@example.com or by calling us at 1-800-123-4567.
+
+Q: Do you have a physical store?
+A: No, we are an online-only retailer, which allows us to offer competitive prices on all our products.
+
+Q: What is your policy on sustainability?
+A: We are committed to sustainability and source our products from ethical and eco-friendly suppliers whenever possible.
+
+Q: Can I cancel or modify my order?
+A: Orders can be canceled or modified within 2 hours of being placed. After that, we cannot guarantee any changes as the order may have already been processed for shipping.
