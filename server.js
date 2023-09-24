@@ -1,10 +1,13 @@
 import express from 'express';
 import chainPromise from './chat.js'; 
+import cors from 'cors';
 
 const app = express();
+app.use(cors());
 const PORT = 3000;
 
 app.use(express.json());
+
 
 
 chainPromise.then(chain => {
