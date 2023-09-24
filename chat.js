@@ -26,12 +26,12 @@ async function initializeChain() {
         vectorStore.asRetriever(),
         {
             returnSourceDocuments: true,
-            memory: new BufferMemory({
-                memoryKey: "chat_history",
-                inputKey: "question",
-                outputKey: "text",
-                returnMessages: true,
-            }),
+            // memory: new BufferMemory({
+            //     memoryKey: "chat_history",
+            //     inputKey: "question",
+            //     outputKey: "text",
+            //     returnMessages: true,
+            // }),
             questionGeneratorChainOptions: {
                 llm: fasterModel,
             },
