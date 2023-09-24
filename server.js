@@ -1,5 +1,5 @@
 import express from 'express';
-import chainPromise from './bot.js'; 
+import chainPromise from './chat.js'; 
 
 const app = express();
 const PORT = 3000;
@@ -10,8 +10,8 @@ app.use(express.json());
 chainPromise.then(chain => {
     app.post('/ask', async (req, res) => {
         try {
-            const query = req.body.query;
-            const response = await chain.call({ query });
+            const question = req.body.query;
+            const response = await chain.call({ question });
             res.json({ answer: response.text });
         } catch (error) {
             console.error("Error processing request:", error);

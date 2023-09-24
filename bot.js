@@ -23,10 +23,10 @@ async function initializeBot() {
     const vectorstore = await FaissStore.fromDocuments(documents, embeddings);
     await vectorstore.save("./");
 
-    const model = new OpenAI({ temperature: 0 });
+    const chat = new OpenAI({ temperature: 0 });
 
     const chain = new RetrievalQAChain({
-        combineDocumentsChain: loadQAStuffChain(model),
+        combineDocumentsChain: loadQAStuffChain(chat),
         retriever: vectorstore.asRetriever(),
         returnSourceDocuments: true,
     });
