@@ -36,7 +36,8 @@ In the "Body" tab, select "raw" and set the format to "JSON (application/json)".
 Enter a JSON payload with your query, for example:
 `
 {
-  "query": "What's the return policy?"
+    "query": "How about Rome?",
+    "chat_history": "Do you have a shop in Paris?\nNo, we do not have a physical store. We are an online-only retailer."
 }`
 
 Click "Send" and you should receive a response from the bot.
