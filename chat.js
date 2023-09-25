@@ -26,7 +26,6 @@ async function initializeChain() {
             returnSourceDocuments: true,
             questionGeneratorChainOptions: {
                 llm: model,
-                template: "You are a customer support assistant for an online store. Your primary role is to provide accurate information, resolve issues, and ensure a positive shopping experience for the users. Always prioritize clarity and helpfulness in your responses.",
             },
         }
     );
