@@ -7,8 +7,6 @@ The Customer Support Bot is designed to autonomously answer frequently asked que
 ## Technological Highlights:
 
 * Langchain Framework: A robust framework that facilitates the creation of language models, ensuring efficient document loading, text splitting, and embeddings.
-* OpenAI Embeddings: Leveraging the power of OpenAI's pre-trained models, we've embedded our textual data to capture intricate semantic relationships.
-* FaissStore: An innovative vector storage solution that allows for rapid and precise retrieval of relevant information in a high dimensional spaces.
 * Express.js: A minimalist web application framework that powers our server, ensuring smooth communication between the bot and users.
 
 
@@ -36,7 +34,8 @@ In the "Body" tab, select "raw" and set the format to "JSON (application/json)".
 Enter a JSON payload with your query, for example:
 `
 {
-  "query": "What's the return policy?"
+    "query": "How about Rome?",
+    "chat_history": "Do you have a shop in Paris?\nNo, we do not have a physical store. We are an online-only retailer."
 }`
 
 Click "Send" and you should receive a response from the bot.
