@@ -1,5 +1,5 @@
 
-# Customer Support Bot
+# RAG Customer Support Bot
 
 The Customer Support Bot is designed to autonomously answer frequently asked questions, reducing the need for manual intervention and enhancing user experience. By leveraging state-of-the-art ML techniques, the bot provides accurate and context-aware responses.
 
